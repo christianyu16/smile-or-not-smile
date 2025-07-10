@@ -3,9 +3,9 @@ import numpy as np
 import cv2
 from PIL import Image
 from tensorflow.keras.models import load_model
+from keras.models import load_model 
 
-# Load the model
-model = load_model("smile_model_clean.h5")
+model = load_model("smile_model_clean.keras")
 
 
 st.title("Smiling or Not Face Detector")
