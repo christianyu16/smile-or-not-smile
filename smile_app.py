@@ -5,7 +5,7 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 
 # Load the model
-model = load_model("smile_model_tf211.h5")
+model = load_model("smile_model_clean.h5")
 
 st.title("Smiling or Not Face Detector")
 st.write("Upload a face image and let the model predict if the person is smiling.")
